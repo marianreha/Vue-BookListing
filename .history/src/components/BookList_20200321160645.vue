@@ -5,7 +5,9 @@
         </div>
         <div>
             <ul>
-                <li v-for="book in books">{{ book.title }}:{{ book.author }}</li>
+                <li>Title1</li>
+                <li>Title2</li>
+                <li>Title3</li>
             </ul>
         </div>
     </div>

@@ -4,8 +4,8 @@
             <h1>{{ title }}</h1>
         </div>
         <div>
-            <ul>
-                <li v-for="book in books">{{ book.title }}:{{ book.author }}</li>
+            <ul v-for="book in books">
+                <li>{{ book.title }}, {{ book.author }}</li>
             </ul>
         </div>
     </div>
